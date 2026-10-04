@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valtus — Catálogo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="catalog.css" />
+    <link rel="stylesheet" href="details.css" />
+    <link rel="stylesheet" href="subpage.css" />
+    <link rel="stylesheet" href="visual.css" />
+  </head>
+  <body>
+    <section class="carousel-story" id="carouselStory">
+      <main class="catalog" id="catalog" aria-label="Catálogo Valtus de tenis">
+        <header class="catalog-header"><div class="logo">valtus<span>®</span></div><div class="catalog-title">Catálogo / 01—04</div><div class="catalog-hint">Scroll para explorar <i>↓</i></div></header>
+        <div class="catalog-window"><div class="catalog-track" id="catalogTrack"></div></div>
+        <footer class="catalog-footer"><span id="productLabel">Aero 01 / Runner</span><span class="progress"><i id="progressBar"></i></span><span>Valtus Lab — 2026</span></footer>
+      </main>
+    </section>
+    <div class="detail-overlay" id="detailOverlay" aria-hidden="true">
+      <button class="detail-close" id="detailClose">← Volver al catálogo</button>
+      <section class="details" id="details" aria-label="Detalle del producto"><div id="detailList"></div></section>
+    </div>
+    <script src="catalog.js"></script>
+  </body>
+</html>
